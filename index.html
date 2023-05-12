@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./Image/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/294a6ec635.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Gadget-Place</title>
+</head>
+<body>
+    <header>
+        <i style="position:absolute;color:white; left:12%;top:1.5%" class="fa-solid fa-phone"></i>
+        <ul class="first">
+            <li><a class="left" href="#">08072777220</a></li>
+            <li><a class="left" href="#">08066898284</a></li>
+        </ul>
+        <ul class="second">
+            <li><a class="right" href="#">Checkout</a></li>
+            <li><a class="right" href="#">Shopping Cart</a></li>
+            <li><a class="right" href="#">Wish list(<span style="text-transform: lowercase;">o</span>)</a></li>
+            <li><a class="right" href="#">My account</a></li> 
+        </ul>
+    </header>
+    <section>
+        <a href="#"><img src="./Image/gadget_place_logo.png" alt="gadget_place_logo"></a><br>
+        <ul>
+            <li><a href="#">promo deals</a></li>
+            <li><a href="#">best selling products</a></li>
+            <li><a href="#">new arrival</a></li>
+            <li><a href="#" class="homepage" style="color:#f57120">home</a></li>
+        </ul>
+    </section>
+    <main>
+        <div style="max-width: 880px;height:7vh;background-color: #f57120;position:relative;top:52px;left: 265px;border-style: hidden;z-index:1;">
+            <form action="" style="width:570px;height:33px;background-color: white; margin:8px 30px;position: absolute;border-collapse: collapse; border-style: hidden; border-radius: 5px;">
+                <select name="items" id="items" style="width:20%;height:32px;font-size: 12px;font-weight:bold; text-transform: uppercase;border-style: hidden;border-right: 1px solid #e4e4e4;padding:8px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;">
+                    <option value="Categories">Categories</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Internet of Things">Internet of Things</option>
+                    <option value="View All">View All</option>
+                    <option value="Phones & Tablets">Phones & Tablets</option>
+                    <option value="Tablets">Tablets</option>
+                    <option value="Apple IOS">Apple IOS</option>
+                    <option value="Gadjets">Gadgets</option>
+                    <option value="Android">Android</option>
+                    <option value="SmartWatches">SmartWatches</option>
+                    <option value="Earphones & Headsets">Earphones & Headsets</option>
+                    <option value="Power Banks and Chargers">Power Banks and Chargers</option>
+                    <option value="Computers & Accessories">Computers & Accessories</option>
+                    <option value="Laptops">Laptops</option>
+                    <option value="Desktops">Desktops</option>
+                    <option value="Computer">Computer</option>
+                    <option value="Accessories">Accessories</option>
+                    <option value="Gift Cards">Gift Cards</option>
+                    <option value="Apple ITunes">Apple Itunes</option>
+                    <option value="PlayStation">PlayStation</option>
+                    <option value="PSN Cards">PSN Cards</option>
+                    <option value="Amazon Gift">Amazon Gift</option>
+                    <option value="Cards">Cards</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Gift Cards">Gift Cards</option>
+                    <option value="Google Play">Google Play</option>
+                    <option value="Gift Cards">Gift Cards</option>
+                    <option value="Minecraft">Minecraft</option>
+                    <option value="Game Cards">Game Cards</option>
+                    <option value="Nintendo">Nintendo</option>
+                </select>
+                <input type="text" name="Search" placeholder="Search" class="search" style="border-style:hidden;height:32px;width:380px;margin-left: 15px;">
+                <button type="submit" style="background-color: black;width:45px;height:28px;margin-left: 5px; border-radius:3px;cursor:pointer;"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></button>
+            </form>
+            <a href="#" style="position:absolute;text-transform:uppercase; margin-left: 670px;text-decoration: none;color:white;font-weight: bold; margin-top: 17px; font-size: 14px;letter-spacing: 1px;"><i class="fa-solid fa-cart-shopping" style="color:white; padding-right: 15px;"></i>My Cart- <span style="text-transform: lowercase;">o</span>  Item(s)</a>
+        </div>
+        <ul class="parent">
+            <li style="background-color:black;color:white;font-size: 14px;margin-left: 0;padding-top: 8px;">categories <i class="fa-solid fa-list" style="margin-left: 130px; font-size: 24px;"></i></li>
+            <li class="dropdown"><a href="#">Phones & Tablets</a><i class="fa-solid fa-angle-right" style="padding-left: 105px;"></i>
+                <ul class="dropdown-content" style="margin-bottom: 50px;">
+                    <li><a href="">Tablet</a></li>
+                    <li><a href="">apple <span style="text-transform: uppercase;">ios</span> gadjet </a></li>
+                    <li><a href="">Android</a></li>
+                    <li><a href="">SmartWatches</a></li>
+                    <li><a href="">Cases</a></li>
+                    <li><a href="">Earphones & Headsets</a></li>
+                    <li><a href="" >Power Banks & Chargers</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#">computers & accessories</a><i class="fa-solid fa-angle-right" style="padding-left: 50px;"></i>
+                <ul class="dropdown-content" style="margin-bottom: 50px;">
+                    <li><a href="">Laptops</a></li>
+                    <li><a href="">Desktops</a></li>
+                    <li><a href="">Computer Accessories</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#">automotive & office products</a><i class="fa-solid fa-angle-right" style="padding-left: 15px"></i>
+                <ul class="dropdown-content" style="margin-bottom: 50px;">
+                    <li><a href="">Auto-Mobile Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="#">home & kitchen tools</a></li>
+            <li><a href="#">networking devices</a></li>
+            <li class="dropdown"><a href="#">gift cards</a><i class="fa-solid fa-angle-right" style="padding-left: 155px;"></i>
+                <ul class="dropdown-content" style="margin-bottom: 50px;">
+                    <li><a href="">Apple ITunes Gift Cards</a></li>
+                    <li><a href="">PlayStation PSN Cards</a></li>
+                    <li><a href="">Amazon Gift Cards</a></li>
+                    <li><a href="">Facebook Gift Cards</a></li>
+                    <li><a href="">Google Play Gift Cards</a></li>
+                    <li><a href="">Minecraft Game Cards</a></li>
+                    <li><a href="">Nintedo Game Cards</a></li>
+                    <li><a href="">Skype Gift Cards</a></li>
+                    <li><a href="">Nintedo Game Cards</a></li>
+                    <li><a href="">Xbox Live Game Cards</a></li>
+                </ul>
+            </li>
+            <li><a href="#">personal care- unisex</a></li>
+            <li><a href="#">fashion</a></li>
+            <li style="background-color:white;"><a href="#"><i class="fa-solid fa-plus" style="font-size:22px;color: #f57120;"><span style="margin-left: 10px;font-size: 12px;">more categories</span></i></a></li>
+        </ul>
+        <div>
+            <form action="" style="border:1px solid #e4e4e4; position: absolute;max-width: 8.5%;left: 980px;top: 290px;height: 40px; padding: 6px;font-weight: bold;text-transform: uppercase;font-size: 11px;">
+                <caption>Show:</caption>
+                <select name="fig" id="fig" style="font-weight: bold;border-style: hidden; margin-left: 5px;">
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="75">75</option>
+                    <option value="100">100</option>
+                </select>
+            </form>
+            <form action="" style="border:1px solid #e4e4e4; position: absolute;max-width: 15%;left: 1110px;top: 290px;height: 40px; padding: 6px;font-weight: bold;text-transform: uppercase;font-size: 11px;">
+                <caption>Sort by:</caption>
+                <select name="text" id="text" style="font-weight: bold;border-style: hidden; margin-left: 5px;text-transform: uppercase;font-size: 11px;padding: 6px;margin-left: 10px;">
+                    <option value="default">default</option>
+                    <option value="name(a-z)">name(a-z)</option>
+                    <option value="name(z-a)">name(z-a)</option>
+                    <option value="price(low > high)">price(low > high)</option>
+                    <option value="price(high > low)">price(high > low)</option>
+                    <option value="rating(highest)">rating(highest)</option>
+                    <option value="rating(lowest)">rating(lowest)</option>
+                    <option value="model(a-z)">model(a-z)</option>
+                    <option value="model(z-a)">model(z-a)</option>   
+                </select>
+            </form>
+        </div>
+        <article>
+            <div class="row" style="position: absolute;top:330px;z-index: -1;">
+                <div class="col">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <a href="#"><p>U Disk 2TB 1024GB 256GB USB 3.1 <br> Type-C Portable USB Memory</a> <br><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/aibo.jpg" alt="Aiboo"></a>
+                    <a href="#"><p style="text-transform: capitalize;"><span style="text-transform: uppercase;">aiboo</span> dimmable <span style="text-transform: uppercase;">led</span> under<br> cabinet lighting. counter<br> showcase kitchen</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;18500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/Reading Lamp.jpg" alt="Lamp"></a>
+                    <a href="#"><p> Table Desk Reading Lamp 10W QI <br> Wireless Charging With Calendar <br> Temperature Alarm Clock</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;38000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/ups.jpg" alt="Ups"></a>
+                    <a href="#"><p> 12V 1A 14.8W Multipurpose Mini <br>UPS Battery Backup Security <br> Standby Power Supply</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;15000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:850px">
+                <div class="col">
+                    <a href="#"><img src="./Image/pt1.jpg" alt="pt"></a>
+                    <a href="#"><p>Hands-Free FM Wireless <br> Microphone For FM Radio <br> Stereo/Amplifier</a> <br><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;6,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/t32.jpg" alt="t32"></a>
+                    <a href="#"><p style="text-transform: capitalize;"><span style="text-transform: uppercase;">EarphonesNew Qcy T3 Tws <br> Wireless Bluetooth Earphones</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/kimafun.jpg" alt="Lamp"></a>
+                    <a href="#"><p>KIMAFUN 2.4G Fitness Wireless <br> Microphone, Waterproof Headset</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;36,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/william.jpg" alt="william"></a>
+                    <a href="#"><p> William Polo Men Slim Thin Belt <br> Automatic Buckle Metal Fashion</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;25,000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:1320px">
+                <div class="col">
+                    <a href="#"><img src="./Image/WIFi.jpg" alt="wifi"></a>
+                    <a href="#"><p>WIFI Android MP4 Player Bluetooth <br> Music Player</a> <br><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;48,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/WD12.jpg" alt="WD"></a>
+                    <a href="#"><p style="text-transform: capitalize;">WD - Easystore 128GB USB 3.0 <br> Flash Drive - Blue</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;18,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/an.jpg" alt="an"></a>
+                    <a href="#"><p>SoundBuds Wireless Headphones <br> - Bluetooth Black Water Resist Built In Mic</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;18,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/husk2.png" alt="husk"></a>
+                    <a href="#"><p> Husky Lumen High Power <br> Unbreakable Aluminum Flashlight</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;25,000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:1750px">
+                <div class="col">
+                    <a href="#"><img src="./Image/wahl.jpg" alt="wahl"></a>
+                    <a href="#"><p>Wahl Home Pro 300 Complete <br> Haircutting Kit</p></a> <br><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;35,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/te1.jpg" alt="Tel"></a>
+                    <a href="#"><p style="text-transform: capitalize;">Virtual Reality Goggle 3D VR <br> Glasses + Games Pad</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/vent0.jpg" alt="vent"></a>
+                    <a href="#"><p>Vention Type-C USB To HDMI <br> Converter Adapter</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;7,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/Acer pic2.jpg" alt="Acer"></a>
+                    <a href="#"><p> Acer Aspire Switch 10 2-In-1 <br> Detachable TouchScreen Laptop <br> (Renewed)</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;135,000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:2250px">
+                <div class="col">
+                    <a href="#"><img src="./Image/G11.jpg" alt="G11"></a>
+                    <a href="#"><p>Wireless Game Controller For PS3 <br> Controller Dual Vibration Joystick</p></a> <br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;9,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/metal.jpg" alt="metal"></a>
+                    <a href="#"><p style="text-transform: capitalize;">1Pc GC-101H High Sensitivity <br> Metal Detector</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;25,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/Cap4.jpg" alt="cap4"></a>
+                    <a href="#"><p>Bluetooth Headphones, Best <br> Wireless Sports Earphones W/Mic <br> IPX7 -Senso</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;25,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/gaming keyboard.jpg" alt="gaming keyboard"></a>
+                    <a href="#"><p>HXSJ L500 61 KEYS WIRELESS <br> GAMING KEYBOARD</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:2750px">
+                <div class="col">
+                    <a href="#"><img src="./Image/fe4.jpg" alt="fe4"></a>
+                    <a href="#"><p>Amazon Gift Cards -USA |$10 <br> |$15|$25| $50 |$100</p></a> <br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;11,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/phone stand.jpg" alt="phone stand"></a>
+                    <a href="#"><p style="text-transform: capitalize;">USLION Metal Phone Holder</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;16,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/sili7.jpg" alt="sili7"></a>
+                    <a href="#"><p>2.5 Shockproof Hard Drive External Protector</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;2,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/Cab1.jpg" alt="cab1"></a>
+                    <a href="#"><p>Capacitive-Touch-Pen-Stylus- <br> Screen-For-Phone-Tablet-Laptop- <br> Capacitive-Touch-Screen-Devices</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;3,500</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:3220px">
+                <div class="col">
+                    <a href="#"><img src="./Image/equate.jpg" alt="equate"></a>
+                    <a href="#"><p>Infrared In Ear Digital <br> Thermometer</p></a> <br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/FIRE HD.jpg" alt="Fire hd"></a>
+                    <a href="#"><p style="text-transform: capitalize;">Fire HD 8 Plus Tablet, HD Display, <br> 32 GB</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;145,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/targus bag3.jpg" alt="Targus bag"></a>
+                    <a href="#"><p>Targus - Octave Laptop Cases 39,6 <br> Cm (15.6 ") Backpack</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/so12.jpg" alt="so12"></a>
+                    <a href="#"><p>Olympus VN-722PC Voice <br> Recorders, 4 GB Built-In-Memory</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;48,500</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:3690px;left:120px">
+                <div class="col">
+                    <a href="#"><img src="./Image/Captdure.jpg" alt="captdure"></a>
+                    <a href="#"><p>WD 1TB Black My Passport Ultra <br> Portable External Hard Drive - USB <br> 3.0</p></a> <br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;32,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/akaso.jpg" alt="Akaso"></a>
+                    <a href="#"><p style="text-transform: capitalize;">AKASO EK7000 4K WiFi Sports <br> Action Camera Ultra HD</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;95,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/alpha.jpg" alt="Alpha"></a>
+                    <a href="#"><p>Alphamed Clinical Lcd Automatic <br> Wrist Blood Pressure Monitor</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/motion.jpg" alt="motion"></a>
+                    <a href="#"><p>Anker Soundcore Motion+ <br> Bluetooth Speaker With Hi-Res <br> 30W Audio, Wireless Speaker, App, Custom EQ, 12H Playtime, <br> Waterproof, USB-C</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;85,000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:4200px">
+                <div class="col">
+                    <a href="#"><img src="./Image/gbeta-261x364.jpg" alt="Gbeta"></a>
+                    <a href="#"><p>HDMI Adapter 1080P HDMI To <br> HDMI VGA DVI Audio</p></a> <br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;12,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/cony-261x364.jpg" alt="Cony"></a>
+                    <a href="#"><p style="text-transform: capitalize;">ConairMAN All-In-1 <br> Cordless/Rechargeable Beard <br> Trimmer</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;25,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/uhd44 - Copy-261x364.jpg" alt="uhd"></a>
+                    <a href="#"><p>UHD 4Kx2K 3D 1x4 HDMI Splitter</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;16,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/Mi YY-525-261x364.jpg" alt="Mii"></a>
+                    <a href="#"><p>YYK-525 Bluetooth Wireless <br> Headphones, Stereo, Music, HD <br> Headset, Call, Microphone</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+            </div>
+            <div class="row2" style="position: absolute;top:4700px">
+                <div class="col">
+                    <a href="#"><img src="./Image/pc pad double1.jpg" alt="pc pad"></a>
+                    <a href="#"><p>USB-830D GAMESTICK FOR PC</p></a> <br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;7,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/FM RADIO.jpg" alt="fm radio"></a>
+                    <a href="#"><p style="text-transform: capitalize;">EONKO L-528 Multi Function Radio <br> Speaker With Bluetooth</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/beu2.jpg" alt="beu"></a>
+                    <a href="#"><p>UHD 4Kx2K 3D 1x4 HDMI Splitter</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;16,500</a>
+                </div>
+                <div class="col">
+                    <a href="#"><img src="./Image/Cab1.jpg" alt="cab"></a>
+                    <a href="#"><p>YYK-525 Bluetooth Wireless <br> Headphones, Stereo, Music, HD <br> Headset, Call, Microphone</p></a><br>
+                    <a href="#" style="color:#f57120;font-size: 15px;">&#8358;28,000</a>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer style="width:100%;background-color:black;height: 500px;position:relative;top:4600px">
+        <div style="color:white;position: absolute;left:190px;top: 0px;letter-spacing: 2px;font-weight: bold;border-right:1px solid #69686c;height: 380px;">
+            <i class="fa-solid fa-location-dot" style="background-color:none;border:1px solid #69686c; border-radius:100%;padding: 10px;position:absolute;top:25px;"></i><br>
+            <p style="margin-left: 60px;margin-right:30px;line-height: 20px;font-size: 13px;">Big Treat Mall(First Floor) 1 Stadium Road <br> Air Force Base Junction Port Harcourt, <br> Rivers State</p><br>
+            <i class="fa-solid fa-phone" style="color:white;background-color:none;border:1px solid #69686c; border-radius:100%;padding: 10px;position:absolute;top:90px;"></i>
+            <ul class="first" style="position:absolute;left:0px;line-height: 20px;">
+                <li><a class="left" href="#">08072777220,</a></li>
+                <li><a class="left" href="#">08066898284</a></li>
+            </ul><br><br><br>
+            <i class="fa-sharp fa-solid fa-envelope" style="color:white;background-color:none;border:1px solid #69686c; border-radius:100%;padding: 10px;position:absolute;top:150px;"></i>
+            <p style="margin-left: 60px;line-height: 20px;font-size: 13px;"><a href="">sales@gadgetplace.com</a></p><br><br>
+            <h4 style="text-transform: uppercase;">follow us on</h4><br>
+            <a href=""><i class="fa-brands fa-facebook" style="color:white; font-size:38px;position:absolute;top:250px;"></i></a>
+            <a href=""><i class="fa-brands fa-twitter" style="color:black;background-color:white;border:1px solid #e4e4e4; border-radius:100%;padding: 10px;position:absolute;top:250px;left:50px"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus-g" style="color:black;background-color:white;border:1px solid #e4e4e4; border-radius:100%;padding: 10px;position:absolute;top:250px;left:100px"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest-p" style="color:black;background-color:white;border:1px solid #e4e4e4; border-radius:100%;padding: 10px;position:absolute;top:250px;left:150px"></i></a>
+        </div>
+        <div class="row" style="position:absolute;left:609px;top:50px;width:48%;height:55%;letter-spacing:2px;border-bottom: 1px solid #69686c;">
+            <div class="col">
+                <h3>Information</h3><br>
+                <ul style="list-style-type: none;">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Delivery Information</a></li>
+                    <li><a href="">Brands</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Specials</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>my account</h3><br>
+                <ul>
+                    <li><a href="">My account</a></li>
+                    <li><a href="">order history</a></li>
+                    <li><a href="">Gift Vouchers</a></li>
+                    <li><a href="">Wish List</a></li>
+                    <li><a href="">Specials orders</a></li>
+                    <li><a href="">payment methods</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>useful links</h3><br>
+                <ul>
+                    <li><a href="">careers</a></li>
+                    <li><a href="">contact us</a></li>
+                    <li><a href="">return policy</a></li>
+                    <li><a href="">site map</a></li>
+                </ul>
+            </div>
+        </div>
+        <div style="position: absolute;left:650px;bottom:100px;">
+            <form action="" style="border-collapse: collapse;background-color: #373737;width:380px;">
+                <label for="email" style="color:white;text-transform:uppercase;font-size:14px;font-weight: bold;padding:8px;background-color: #373737;border-collapse: collapse;margin-right: 0px;">email</label>
+                <input type="email" name="email" style="outline-width:0;border-style:hidden;background-color: #373737;padding:8px;margin-left: 0px;color: white;">
+                <button type="submit" style="background-color: #f57120;padding:8px;text-transform:uppercase;font-size: 13px; font-weight: bold;letter-spacing: 1px;border-style: hidden;margin-left: 52px;"><a href="" style="color:white;text-decoration: none;">Subscribe</a></button>
+            </form>
+            <a href=""><img src="./Image/white.png" alt="footer_image" style="width:180px;height:32px;position:absolute;top:0px;left:500px"></a>
+        </div>
+        <div style="width:76%;height: 1px; background-color: #69686c; position: absolute;bottom: 80px;border-top: 1px solid #69686c;left:190px;">
+            <p style="text-transform: uppercase;color: white;font-size: 13px;padding:28px 18px;letter-spacing: 1px;color:#69686c;font-weight:bold;">copyright &copy; 2018 gadjet place. All rights reserved</p>
+            <p style="text-transform: uppercase;color: white;font-size: 13px;padding:28px 18px;letter-spacing: 1px;color:#69686c;font-weight:bold; position: absolute;top:0px;right: 10px;">web design company - ckdigital</p>
+        </div>
+    </footer>
+</body>
+</html>
+                    
